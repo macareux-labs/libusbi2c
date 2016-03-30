@@ -1,0 +1,9 @@
+#ifndef USBI2C_CONFIG_H
+#define USBI2C_CONFIG_H
+
+#define VERSION_MAJOR @usbi2c_VERSION_MAJOR@
+#define VERSION_MINOR @usbi2c_VERSION_MINOR@
+
+#define BUFFER_SIZE	100
+
+#endif

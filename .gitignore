@@ -1,0 +1,28 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Ignore these files
+*~
+*.swp
+
+# ignore compilation results
+
+build/*
+src/config.h
+
+
+
+
+
+
+
