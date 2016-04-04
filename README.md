@@ -128,7 +128,7 @@ For you convenience, defines have been written so you can just set the GPIOMODE 
 	...
 	GPIO_ALL_QUASIBIDIR  Sets all GPIOs to Quasibidir mode
 	GPIO_ALL_INPUT       Sets all GPIOs to Input mode
-        GPIO_ALL_PUSHPULL    Sets all GPIOs to PushPull mode
+	GPIO_ALL_PUSHPULL    Sets all GPIOs to PushPull mode
 	GPIO_ALL_OPENDRAIN   Sets all GPIOs to Open Drain mode
 
 
