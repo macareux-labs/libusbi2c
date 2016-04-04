@@ -87,10 +87,10 @@ Simple isn't it ?
 
 Sends a message to an I2C device, where :
 
-	- usb_handle is the handle returned by usbi2c_open
-	- addr is the 7 bit address of the I2C device you want to interact with ( Don't add the RW bit, it will be done automagically )
-	- buffer is the array of bytes you want to write 
-	- bytes is the size of the message stored in buffer
+- usb\_handle is the handle returned by usbi2c\_open
+- addr is the 7 bit address of the I2C device you want to interact with ( Don't add the RW bit, it will be done automagically )
+- buffer is the array of bytes you want to write 
+- bytes is the size of the message stored in buffer
 
 #### Reading
 
@@ -98,10 +98,10 @@ Sends a message to an I2C device, where :
 
 Receives a message from an I2C device, where :
 
-	- usb_handle is the handle returned by usbi2c_open
-	- addr is the 7 bit address of the I2C device you want to interact with ( Don't add the RW bit, it will be done automagically )
-	- buffer is the array of bytes where the message will be written
-	- bytes is the size of buffer
+- usb\_handle is the handle returned by usbi2c\_open
+- addr is the 7 bit address of the I2C device you want to interact with ( Don't add the RW bit, it will be done automagically )
+- buffer is the array of bytes where the message will be written
+- bytes is the size of buffer
 
 
 #### Repeated Start
@@ -121,15 +121,15 @@ The 8 gpio lines of the SC18IM700 can be set with the usbi2c\_gpio\_set\_mode fu
 
 For you convenience, defines have been written so you can just set the GPIOMODE with an OR expression :
 
-	GPIO0_QUASIBIDIR 	-> Sets GPIO0 to Quasibidir mode	
-	GPIO0_INPUT		-> Sets GPIO0 to Input mode
-	GPIO0_PUSHPULL		-> Sets GPIO0 to PushPull mode
-	GPIO0_OPENDRAIN		-> Sets GPIO0 to Open Drain mode
+	GPIO0_QUASIBIDIR     Sets GPIO0 to Quasibidir mode	
+	GPIO0_INPUT          Sets GPIO0 to Input mode
+	GPIO0_PUSHPULL       Sets GPIO0 to PushPull mode
+	GPIO0_OPENDRAIN      Sets GPIO0 to Open Drain mode
 	...
-	GPIO_ALL_QUASIBIDIR	-> Sets all GPIOs to Quasibidir mode
-	GPIO_ALL_INPUT          -> Sets all GPIOs to Input mode
-        GPIO_ALL_PUSHPULL       -> Sets all GPIOs to PushPull mode
-	GPIO_ALL_OPENDRAIN      -> Sets all GPIOs to Open Drain mode
+	GPIO_ALL_QUASIBIDIR  Sets all GPIOs to Quasibidir mode
+	GPIO_ALL_INPUT       Sets all GPIOs to Input mode
+        GPIO_ALL_PUSHPULL    Sets all GPIOs to PushPull mode
+	GPIO_ALL_OPENDRAIN   Sets all GPIOs to Open Drain mode
 
 
 ### Example
